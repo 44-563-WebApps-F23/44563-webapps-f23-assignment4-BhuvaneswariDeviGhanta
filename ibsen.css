@@ -13,3 +13,29 @@
 .direction:hover{background-color: rgb(35, 14, 155);color: rgb(255, 0, 21);}
 .HELMER{color: rgb(76, 192, 18);}
 .NORA{color: rgb(230, 77, 12);}
+
+.HELMER:hover{text-shadow:6px 7px 5px rgb(56, 7, 230);border: solid 3px rgb(230, 77, 12);}
+.NORA:hover{text-shadow:6px 7px 5px rgb(56, 7, 230);border: solid 3px rgb(230, 77, 12);}
+
+table{
+    border:solid 3px black;
+    color: #2da812;
+    text-align: left;
+    padding: 1px;
+    margin-bottom: 20px;
+}
+th {
+    color: #c51616;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #555;
+  }
+td {border: solid 1px;
+    text-align: center;padding: 8px;}
+tr {background-color:rgb(156, 137, 150) ;}
+tr:nth-child(even) {background-color: #b0cda2;}
+
+ul.navbar-horizontal li{
+    float: left;
+    color: rgb(154, 4, 4);
+}
